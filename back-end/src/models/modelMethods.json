@@ -1,0 +1,130 @@
+{
+  "User": {
+    "instanceMethods": [
+      "_isAttribute",
+      "getFollowers",
+      "countFollowers",
+      "hasFollower",
+      "hasFollowers",
+      "setFollowers",
+      "addFollower",
+      "addFollowers",
+      "removeFollower",
+      "removeFollowers",
+      "createFollower",
+      "getFollowing",
+      "countFollowing",
+      "hasFollowing",
+      "setFollowing",
+      "addFollowing",
+      "removeFollowing",
+      "createFollowing",
+      "getArticles",
+      "countArticles",
+      "hasArticle",
+      "hasArticles",
+      "setArticles",
+      "addArticle",
+      "addArticles",
+      "removeArticle",
+      "removeArticles",
+      "createArticle",
+      "getComments",
+      "countComments",
+      "hasComment",
+      "hasComments",
+      "setComments",
+      "addComment",
+      "addComments",
+      "removeComment",
+      "removeComments",
+      "createComment",
+      "getFavorites",
+      "countFavorites",
+      "hasFavorite",
+      "hasFavorites",
+      "setFavorites",
+      "addFavorite",
+      "addFavorites",
+      "removeFavorite",
+      "removeFavorites",
+      "createFavorite"
+    ],
+    "classMethods": [
+      "_isPrimaryKey"
+    ]
+  },
+  "Article": {
+    "instanceMethods": [
+      "_isAttribute",
+      "getAuthor",
+      "setAuthor",
+      "createAuthor",
+      "getComments",
+      "countComments",
+      "hasComment",
+      "hasComments",
+      "setComments",
+      "addComment",
+      "addComments",
+      "removeComment",
+      "removeComments",
+      "createComment",
+      "getUsers",
+      "countUsers",
+      "hasUser",
+      "hasUsers",
+      "setUsers",
+      "addUser",
+      "addUsers",
+      "removeUser",
+      "removeUsers",
+      "createUser",
+      "getTagLists",
+      "countTagLists",
+      "hasTagList",
+      "hasTagLists",
+      "setTagLists",
+      "addTagList",
+      "addTagLists",
+      "removeTagList",
+      "removeTagLists",
+      "createTagList"
+    ],
+    "classMethods": [
+      "_isPrimaryKey"
+    ]
+  },
+  "Comments": {
+    "instanceMethods": [
+      "_isAttribute",
+      "getAuthor",
+      "setAuthor",
+      "createAuthor",
+      "getArticle",
+      "setArticle",
+      "createArticle"
+    ],
+    "classMethods": [
+      "_isPrimaryKey"
+    ]
+  },
+  "Tags": {
+    "instanceMethods": [
+      "_isAttribute",
+      "getArticles",
+      "countArticles",
+      "hasArticle",
+      "hasArticles",
+      "setArticles",
+      "addArticle",
+      "addArticles",
+      "removeArticle",
+      "removeArticles",
+      "createArticle"
+    ],
+    "classMethods": [
+      "_isPrimaryKey"
+    ]
+  }
+}
